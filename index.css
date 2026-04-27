@@ -1,0 +1,20 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+}
+
+header {
+    background-color: lightpink;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.botao-acao {
+    background-color: blue;
+}
+
+.botao-acao:hover {
+    background-color: aquamarine;
+}
