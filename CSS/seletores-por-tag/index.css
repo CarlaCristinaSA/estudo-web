@@ -1,0 +1,29 @@
+ /*Todos os elementos */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* POR TAG */
+
+/*Isso aplica para todos os paragrafos*/
+p {
+color: red;
+}
+
+/*Dessa forma, estamos apenas selencionando os paragrafos que estão dentro de sections que estão dentro de divs  */
+body div section p{
+    color: blue;
+}
+
+/*Dessa forma, estamos apenas selencionando os paragrafos que estão dentro de sections que estão dentro de divs e estamos aplicando a mesma regra para o H1 */
+body div section p,
+body div section h1
+{
+    color: blue;
+}
+
+/*Aplicando regra para h1 e p geral*/
+h1, p {
+    color: purple;
+}
